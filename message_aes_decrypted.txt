@@ -1,0 +1,1 @@
+This is a secret message that must be encrypted and decrypted using OpenSSL.

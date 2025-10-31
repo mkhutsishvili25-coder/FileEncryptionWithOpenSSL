@@ -1,0 +1,17 @@
+RSA (asymmetric encryption) uses a pair of keys: a public key for encryption and a private key for decryption.
+It is computationally slower but provides secure key exchange and digital signatures.
+It is best used for protecting small amounts of data, such as encrypting symmetric keys.
+
+AES-256 (symmetric encryption) uses a single shared key for both encryption and decryption.
+It is extremely fast and efficient for encrypting large files or continuous data streams.
+
+Performance difference:
+AES is much faster than RSA because it performs simpler mathematical operations.
+RSA involves modular exponentiation and large integer arithmetic, which is slower.
+
+Use-case difference:
+RSA is used for secure key exchange, authentication, and digital signatures.
+AES is used for bulk data encryption, such as securing files, databases, or communication channels.
+
+In real-world systems, they are often combined:
+RSA encrypts the AES key, and AES encrypts the actual data — this is called hybrid encryption.
